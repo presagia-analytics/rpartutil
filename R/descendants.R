@@ -3,7 +3,7 @@
 #' @param nodes the node to get the descendants.
 #' @param include should the descriptions be included? Default it TRUE.
 #' @export
-descendant = function (nodes, include = TRUE) {
+descendants = function (nodes, include = TRUE) {
   n <- length(nodes)
   if (n == 1L)
     return(matrix(TRUE, 1L, 1L))
