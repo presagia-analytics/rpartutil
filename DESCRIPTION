@@ -1,10 +1,14 @@
 Package: rpartutil
-Title: Private Functions from rpart 
+Title: Utility functions for `rpart` and `rfsrc` objects
 Version: 0.0.1
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Unexported functions from rpart that are useful. These are straight copies of `rpart`s functions.
+Description: These are straight copies of `rpart`s and `randomForestSRC`'s functions.
+Depends:
+  randomForestSRC,
+  stats,
+  tibble,
 License: GPL (>= 2)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

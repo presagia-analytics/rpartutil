@@ -2,3 +2,11 @@
 
 export(descendants)
 export(node.match)
+export(rf_class_error_diagnostics)
+importFrom(randomForestSRC,get.auc)
+importFrom(randomForestSRC,get.brier.error)
+importFrom(randomForestSRC,get.confusion)
+importFrom(randomForestSRC,get.imbalanced.performance)
+importFrom(randomForestSRC,get.rfq.threshold)
+importFrom(stats,na.omit)
+importFrom(tibble,as_tibble)
